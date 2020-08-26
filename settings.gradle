@@ -1,3 +1,5 @@
 rootProject.name = 'multi-module-demo'
 include ':cores:aws:s3'
+include ':apps:member'
+include ':apps:club'
 

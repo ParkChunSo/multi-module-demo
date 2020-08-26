@@ -1,13 +1,11 @@
-package com.example.multimoduledemo;
+package wap;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MultiModuleDemoApplication {
-
+public class ClubApplication {
     public static void main(String[] args) {
-        SpringApplication.run(MultiModuleDemoApplication.class, args);
+        SpringApplication.run(ClubApplication.class, args);
     }
-
 }
