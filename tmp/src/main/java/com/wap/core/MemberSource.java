@@ -13,8 +13,8 @@ public class MemberSource {
             InputStream inputStream = MemberSource.class.getClassLoader().getResourceAsStream(String.format(YAML_FILE_NAME, System.getenv("--spring.profiles.active")));
             properties.load(inputStream);
             return MemberConfig.builder()
-                    .userId(properties.getProperty("com.dev.wap.userId"))
-                    .userPw(properties.getProperty("com.dev.wap.userPw"))
+                    .userId(properties.getProperty("userId"))
+                    .userPw(properties.getProperty("userPw"))
                     .build();
         } catch (IOException e) {
             e.printStackTrace();
