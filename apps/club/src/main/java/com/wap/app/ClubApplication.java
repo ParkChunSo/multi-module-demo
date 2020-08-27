@@ -1,4 +1,4 @@
-package wap;
+package com.wap.app;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
